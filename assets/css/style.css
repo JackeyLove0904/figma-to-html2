@@ -374,3 +374,93 @@ body .fixed {
     width: 33px;
     height: 6px;
 }
+
+/* ==============================Features=========================== */
+
+.features {
+    padding: 130px 0px 65px;
+}
+
+.features .feature-content {
+    max-width: 1024px;
+}
+
+.features .feature-top .breadcrumbs-name {
+    color: #767e7e;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.features .feature-top .heading {
+    color: #0d1111;
+    font-size: 4.2rem;
+    font-weight: 700;
+    line-height: 1.34; /* 133.333% */
+    max-width: 577px;
+    margin-top: 18px;
+}
+
+.features .feature-top .desc {
+    color: #767e7e;
+    font-size: 1.8rem;
+    max-width: 590px;
+    margin-top: 18px;
+}
+
+.features .feature-list {
+    display: flex;
+    margin-top: 80px;
+    gap: 200px;
+}
+
+.features .feature-list .feature-item {
+    max-width: calc(100% - 134px);
+}
+
+.features .feature-item .feature-img {
+    width: 102px;
+    height: 106px;
+    flex-shrink: 0;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.features .feature-item .feature-img.monitor {
+    background-color: #ffc147;
+}
+.features .feature-item .feature-img.discuss {
+    background-color: #ff947a;
+}
+
+.features .feature-item .dots {
+    position: absolute;
+    display: flex;
+    gap: 6px;
+}
+
+.features .feature-item .dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 6px;
+    background: #fff;
+}
+
+.features .feature-item .feature-img.task {
+    background-color: #bf83ff;
+}
+.features .feature-item .feature-name {
+    color: #0d1111;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 26px;
+}
+
+.features .feature-item .desc {
+    color: #9da6a5;
+    font-size: 1.6rem;
+    line-height: 1.69; /* 168.75% */
+    margin-top: 16px;
+    width: 224px;
+}
