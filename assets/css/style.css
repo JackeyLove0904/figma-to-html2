@@ -705,3 +705,44 @@ body .fixed {
     border-radius: 235px;
     position: relative;
 }
+
+/* ==============================Appeal=========================== */
+
+.appeal {
+    background-color: #def6f5;
+    padding: 76px 0 88px;
+}
+
+.appeal .appeal-content {
+    display: flex;
+}
+
+.appeal .appeal-desc {
+    max-width: 36%;
+}
+
+.appeal .appeal-desc .heading {
+    color: #070707;
+    font-size: 4.2rem;
+    font-weight: 700;
+}
+
+.appeal .appeal-desc .desc {
+    color: #767e7e;
+    font-size: 1.8rem;
+    margin-top: 18px;
+}
+
+.appeal .appeal-content .appeal-btn {
+    display: inline-block;
+    width: 186px;
+    border-radius: 14px;
+    background: var(--primary-color);
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 68px;
+    padding: 0 41px;
+    align-self: center;
+    margin-left: 35%;
+}
