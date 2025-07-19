@@ -385,12 +385,13 @@ body .fixed {
     max-width: 1024px;
 }
 
+.popular .popular-top .breadcrumbs-name,
 .features .feature-top .breadcrumbs-name {
     color: #767e7e;
     font-size: 1.2rem;
     font-weight: 700;
 }
-
+.popular .popular-top .heading,
 .features .feature-top .heading {
     color: #0d1111;
     font-size: 4.2rem;
@@ -399,7 +400,7 @@ body .fixed {
     max-width: 577px;
     margin-top: 18px;
 }
-
+.popular .popular-top .desc,
 .features .feature-top .desc {
     color: #767e7e;
     font-size: 1.8rem;
@@ -463,4 +464,125 @@ body .fixed {
     line-height: 1.69; /* 168.75% */
     margin-top: 16px;
     width: 224px;
+}
+
+/* ==============================Features=========================== */
+.popular {
+    padding-top: 65px;
+}
+
+.popular .popular-top .desc-more {
+    display: flex;
+    justify-content: space-between;
+}
+
+.popular .popular-top .desc {
+    max-width: 525px;
+}
+
+.popular .desc-more .view-all-sources {
+    color: #1ebfc1;
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+    align-self: flex-end;
+}
+
+.popular .courses-list {
+    margin-top: 79px;
+    display: flex;
+    gap: 47px;
+}
+
+.popular .courses-list .course-item {
+    position: relative;
+    max-width: calc(100% - 32px);
+}
+
+.popular .course-item .course-img {
+    width: 100%;
+    height: 393px;
+    border-radius: 8px;
+    opacity: 0.35;
+    background: #d0efed;
+    object-fit: cover;
+}
+
+.popular .course-item .to-padding {
+}
+
+.popular .course-item .courses-infor {
+    width: 325px;
+    height: 195px;
+    border-radius: 8px;
+    box-shadow: 0px 16px 90px 0px rgba(0, 0, 0, 0.05);
+    background: #fff;
+    padding: 18px 25px 29px;
+    position: absolute;
+    bottom: -124px;
+    left: 17px;
+}
+
+.popular .courses-infor .courses-name {
+    color: #0d1111;
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-top: 18px;
+}
+
+.popular .courses-infor .price {
+    color: #767e7e;
+    font-size: 1.6rem;
+    margin-top: 16px;
+}
+
+.popular .courses-infor strong {
+    color: #0d1111;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.popular .courses-infor .desc {
+    color: #9da6a5;
+    font-size: 1.4rem;
+    margin-top: 10px;
+}
+
+.popular .courses-infor .course-state {
+    margin-top: 18px;
+    display: flex;
+    gap: 10px;
+}
+
+.popular .course-state p {
+    color: #9da6a5;
+    font-size: 1.4rem;
+}
+
+.popular .popular-statistic {
+    display: flex;
+    margin-top: 265px;
+    max-width: 74%;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.popular .popular-statistic .popular-courses-statistic {
+}
+
+.popular .popular-courses-statistic .number {
+    color: #0d1111;
+    font-size: 6.2rem;
+    font-weight: 700;
+}
+.popular .popular-courses-statistic .desc {
+    color: #767e7e;
+    font-size: 1.8rem;
+    margin-top: 11px;
 }
