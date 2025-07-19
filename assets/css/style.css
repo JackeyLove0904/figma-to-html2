@@ -47,14 +47,14 @@ body .fixed {
 
 /* logo */
 
-.header .logo {
+.logo {
     display: flex;
     gap: 4px;
     align-items: center;
     position: relative;
 }
 
-.header .logo::after {
+.logo::after {
     content: '';
     width: 5.85px;
     height: 5.958px;
@@ -76,13 +76,13 @@ body .fixed {
     justify-content: center;
     align-items: center;
 }
-.header .logo .in-line-logo {
+.logo .in-line-logo {
     width: 13.498px;
     height: 17.056px;
     transform: rotate(-14.774deg);
 }
 
-.header .logo .logo-desc {
+.logo .logo-desc {
     width: 75.517px;
     height: 17.47px;
     position: relative;
@@ -745,4 +745,66 @@ body .fixed {
     padding: 0 41px;
     align-self: center;
     margin-left: 35%;
+}
+
+/* ==============================Footer=========================== */
+
+.footer {
+    padding-top: 130px;
+}
+
+.footer .footer-content {
+    display: flex;
+    gap: 130px;
+}
+
+.footer .footer-content .col {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .footer-content .logo {
+    height: 47px;
+}
+
+.footer .footer-content .heading {
+    color: #2e2e2e;
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 26px;
+}
+
+.footer .be-social .heading {
+    margin-bottom: 18px;
+}
+
+.footer .footer-content a {
+    color: #535353;
+    font-size: 1.6rem;
+}
+
+.footer .footer-content a:nth-of-type(n + 2) {
+    display: inline-block;
+    margin-top: 18px;
+}
+
+.footer .be-social .social-row {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.footer .be-social .social-row:nth-of-type(n + 2) {
+    margin-top: 18px;
+}
+
+.footer .copyright {
+    padding-top: 80px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.footer .copyright .copyright-desc {
+    color: #b0b5b4;
+    font-size: 1.8rem;
 }
