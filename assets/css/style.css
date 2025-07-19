@@ -469,6 +469,7 @@ body .fixed {
 /* ==============================Features=========================== */
 .popular {
     padding-top: 65px;
+    padding-bottom: 132px;
 }
 
 .popular .popular-top .desc-more {
@@ -585,4 +586,122 @@ body .fixed {
     color: #767e7e;
     font-size: 1.8rem;
     margin-top: 11px;
+}
+
+/* ==============================Feedback=========================== */
+.feedback {
+    padding-top: 132px;
+    padding-bottom: 130px;
+}
+
+.feedback .feedback-content {
+    display: flex;
+}
+
+.feedback .feedback-desc {
+    width: 36%;
+}
+
+.feedback .feedback-desc .review-desc {
+    color: #5d6564;
+    font-size: 3.2rem;
+    line-height: 1.5; /* 150% */
+    margin-top: 27px;
+}
+
+.feedback .feedback-desc .quotation {
+    color: #767e7e;
+    font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+    white-space-collapse: preserve;
+    margin-top: 33px;
+}
+
+.feedback .feedback-desc .quotation::before {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 2px;
+    background: #070707;
+    margin-right: 5px;
+}
+
+.feedback .feedback-desc strong {
+    color: #070707;
+    font-weight: 500;
+}
+
+.feedback .feedback-desc .move-btns {
+    margin-top: 32px;
+    display: flex;
+    gap: 30px;
+}
+
+.feedback .feedback-desc .btn {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background: #2ac9bf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feedback .feedback-avatar {
+    position: relative;
+    align-self: center;
+    /* width: 64%;
+    display: flex;
+    align-items: center;
+    justify-content: center; */
+    margin-left: 29.4%;
+}
+
+.feedback .feedback-avatar .student-avatar {
+    object-fit: cover;
+    position: absolute;
+}
+
+.feedback .feedback-avatar .student-avatar.avatar-item1 {
+    width: 92px;
+    height: 92px;
+    border-radius: 92px;
+    top: -107px;
+    left: -129px;
+}
+.feedback .feedback-avatar .student-avatar.avatar-item2 {
+    width: 110px;
+    height: 110px;
+    border-radius: 110px;
+    top: -88px;
+    right: -171px;
+}
+.feedback .feedback-avatar .student-avatar.avatar-item3 {
+    width: 78px;
+    height: 78px;
+    border-radius: 78px;
+    right: -139px;
+    bottom: -110px;
+}
+.feedback .feedback-avatar .student-avatar.avatar-item4 {
+    width: 78px;
+    height: 78px;
+    border-radius: 78px;
+    left: -61px;
+    bottom: -139px;
+}
+.feedback .feedback-avatar .student-avatar.avatar-item5 {
+    width: 78px;
+    height: 78px;
+    border-radius: 78px;
+    left: -213px;
+    bottom: 6px;
+}
+.feedback .feedback-avatar .student-avatar.avatar-item6 {
+    width: 235px;
+    height: 235px;
+    border-radius: 235px;
+    position: relative;
 }
